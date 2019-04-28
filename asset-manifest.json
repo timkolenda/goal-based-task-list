@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/goal-based-task-list/static/js/main.f3f21c96.chunk.js",
-    "main.js.map": "/goal-based-task-list/static/js/main.f3f21c96.chunk.js.map",
+    "main.js": "/goal-based-task-list/static/js/main.7f7ff73e.chunk.js",
+    "main.js.map": "/goal-based-task-list/static/js/main.7f7ff73e.chunk.js.map",
     "runtime~main.js": "/goal-based-task-list/static/js/runtime~main.1b4fb08f.js",
     "runtime~main.js.map": "/goal-based-task-list/static/js/runtime~main.1b4fb08f.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/goal-based-task-list/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.4504f77f.chunk.js": "/goal-based-task-list/static/js/2.4504f77f.chunk.js",
-    "static/js/2.4504f77f.chunk.js.map": "/goal-based-task-list/static/js/2.4504f77f.chunk.js.map",
+    "static/js/2.5e9ac915.chunk.js": "/goal-based-task-list/static/js/2.5e9ac915.chunk.js",
+    "static/js/2.5e9ac915.chunk.js.map": "/goal-based-task-list/static/js/2.5e9ac915.chunk.js.map",
     "index.html": "/goal-based-task-list/index.html",
-    "precache-manifest.a1731d631a13d78cf56839162ad07f86.js": "/goal-based-task-list/precache-manifest.a1731d631a13d78cf56839162ad07f86.js",
+    "precache-manifest.f5d6067875fdbb56c370485c1e48c6d3.js": "/goal-based-task-list/precache-manifest.f5d6067875fdbb56c370485c1e48c6d3.js",
     "service-worker.js": "/goal-based-task-list/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/goal-based-task-list/static/css/2.22a7d4ef.chunk.css.map"
   }
