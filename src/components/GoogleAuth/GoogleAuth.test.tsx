@@ -8,9 +8,10 @@ import GoogleAuth from './GoogleAuth';
 Enzyme.configure({ adapter: new EnzymeAdaptor() });
 
 describe('<GoogleAuth />', () => {
+    const wrapper = shallow(<GoogleAuth />);
+    console.log(wrapper);
+    const googleAuth = wrapper.find("[data-test='component-google-auth']");
     test('GoogleAuth component renders without error', () => {
-        const wrapper = shallow(<GoogleAuth />);
-        const googleAuth = wrapper.find("[data-test='component-google-auth']");
         expect(googleAuth.length).toBe(1);
     });
     
