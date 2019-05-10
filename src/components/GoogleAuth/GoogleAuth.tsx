@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './GoogleAuth.css';
 
 class GoogleAuth extends Component {
 
@@ -23,13 +24,41 @@ class GoogleAuth extends Component {
         this.setState({ isSignedIn: (this as any).auth.isSignedIn.get() });
     }
 
+    onSignIn = () => {
+        (this as any).auth.signIn();
+    }
+
+    onSignOut = () => {
+        (this as any).auth.signOut();
+    }
+
+
+
     renderAuthButton = () => {
         if(this.state.isSignedIn === null) {
             return null;
         } else if(this.state.isSignedIn) {
-            return <div>Signed in</div>
+            return (
+                <button 
+                    type="button" 
+                    className="btn btn-primary" 
+                    onClick={this.onSignOut}
+                >
+                    <FontAwesomeIcon icon={['fab', 'google']} className="icon-spacing" />
+                    Sign Out
+                </button>
+            )
         } else {
-            return <div>Not Signed in</div>
+            return (
+                <button 
+                    type="button" 
+                    className="btn btn-danger"
+                    onClick={this.onSignIn}
+                >
+                    <FontAwesomeIcon icon={['fab', 'google']} className="icon-spacing" />
+                    Sign in with Google
+                </button>
+            )
         }
     }
 
@@ -37,7 +66,6 @@ class GoogleAuth extends Component {
         return (
             <div data-test="component-google-auth">
                 {this.renderAuthButton()}
-                <FontAwesomeIcon icon={['fab', 'google']} />
             </div>
         )
     }
