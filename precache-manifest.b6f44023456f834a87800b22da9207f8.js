@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d300b3d550ce41023463c20c3db40233",
+    "revision": "94532fabd0e047acae681efa19f15d91",
     "url": "/goal-based-task-list/index.html"
   },
   {
-    "revision": "83cb714204ca308c74b4",
+    "revision": "cb500173255f3fc9bd3e",
     "url": "/goal-based-task-list/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "83cb714204ca308c74b4",
-    "url": "/goal-based-task-list/static/js/2.505df480.chunk.js"
+    "revision": "cb500173255f3fc9bd3e",
+    "url": "/goal-based-task-list/static/js/2.967be336.chunk.js"
   },
   {
-    "revision": "3162a7b9a2424575be8c",
-    "url": "/goal-based-task-list/static/js/main.66deb7c9.chunk.js"
+    "revision": "819499946f2e68cefcb1",
+    "url": "/goal-based-task-list/static/js/main.239946fd.chunk.js"
   },
   {
     "revision": "2dba89cf95f82afe97f1",
