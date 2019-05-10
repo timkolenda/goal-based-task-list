@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { HashRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 
 import Header from '../Header/Header';
 import TaskList from '../../routes/TaskList/TaskList';
@@ -7,7 +9,11 @@ import TaskCreate from '../../routes/TaskCreate/TaskCreate';
 import TaskEdit from '../../routes/TaskEdit/TaskEdit';
 import TaskDelete from '../../routes/TaskDelete/TaskDelete';
 
+library.add(fab);
+
 const App = () => {
+
+
     return (
         <div data-test="component-app">
             <Router>

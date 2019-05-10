@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class GoogleAuth extends Component {
 
@@ -36,6 +37,7 @@ class GoogleAuth extends Component {
         return (
             <div data-test="component-google-auth">
                 {this.renderAuthButton()}
+                <FontAwesomeIcon icon={['fab', 'google']} />
             </div>
         )
     }
