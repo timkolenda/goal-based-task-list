@@ -23,15 +23,13 @@ class GoogleAuth extends Component {
         this.setState({ isSignedIn: (this as any).auth.isSignedIn.get() });
     }
 
-    onSignIn = () => {
+    onSignInClick = () => {
         (this as any).auth.signIn();
     }
 
-    onSignOut = () => {
+    onSignOutClick = () => {
         (this as any).auth.signOut();
     }
-
-
 
     renderAuthButton = () => {
         if(this.state.isSignedIn === null) {
@@ -41,7 +39,7 @@ class GoogleAuth extends Component {
                 <button 
                     type="button" 
                     className="btn btn-primary" 
-                    onClick={this.onSignOut}
+                    onClick={this.onSignOutClick}
                 >
                     <FontAwesomeIcon icon={['fab', 'google']} className="icon-spacing" />
                     Sign Out
@@ -52,7 +50,7 @@ class GoogleAuth extends Component {
                 <button 
                     type="button" 
                     className="btn btn-danger"
-                    onClick={this.onSignIn}
+                    onClick={this.onSignInClick}
                 >
                     <FontAwesomeIcon icon={['fab', 'google']} className="icon-spacing" />
                     Sign in with Google
