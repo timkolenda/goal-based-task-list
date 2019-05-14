@@ -11,7 +11,10 @@ Enzyme.configure({ adapter: new EnzymeAdaptor() });
 describe('<GoogleAuth />', () => {
     const wrapper = mount(<GoogleAuth />);
     console.log(wrapper);
-    test('GoogleAuth component renders without error', () => {
+    beforeEach(() => {
+        
+    });
+    it('renders without error', () => {
         const googleAuth = wrapper.find("[data-test='component-google-auth']");
         expect(googleAuth.length).toBe(1);
     });
